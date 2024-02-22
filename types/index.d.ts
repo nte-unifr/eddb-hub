@@ -6,7 +6,7 @@ declare module 'nuxt/schema' {
 
 export interface ProjectConfig {
   title: string
-  url: string
+  url?: string
   apiUrl: string
   about: {
     path: string

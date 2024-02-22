@@ -12,7 +12,7 @@ const theme = useState('app-theme')
       </NuxtLink>
       <ul class="menu menu-horizontal px-1 hidden lg:inline-flex">
         <li><NuxtLink to="/"><IconInfo /> A propos</NuxtLink></li>
-        <li><NuxtLink to="/projects"><IconCollection /> Projets publiés</NuxtLink></li>
+        <li><NuxtLink to="/projects"><IconCollection /> Projets</NuxtLink></li>
       </ul>
     </div>
     <div class="navbar-end">

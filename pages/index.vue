@@ -1,11 +1,16 @@
+<script setup lang="ts">
+const theme = useState('app-theme')
+</script>
+
 <template>
   <div class="hero min-h-screen">
     <div class="hero-content max-w-7xl grid">
       <div class="flex flex-col lg:flex-row-reverse items-center">
         <img src="~/assets/img/eddb-art.png" class="size-96 rounded-lg shadow-2xl mb-8" />
         <div>
-          <h1 class="text-5xl font-bold">Educational Databases</h1>
-          <h2 class="text-2xl font-bold opacity-70">DIT-NTE Service</h2>
+          <h1 class="text-5xl font-bold lg:hidden">Educational Databases</h1>
+          <img v-if="theme == 'light'" src="~/assets/img/eddb-banner-light.png" class="w-2/3 mb-8 hidden lg:block" />
+          <img v-if="theme == 'dark'" src="~/assets/img/eddb-banner-dark.png" class="w-2/3 mb-8 hidden lg:block" />
           <div class="text-justify pr-8">
             <p class="py-6 text-xl">
               <strong><em>EDDB</em></strong>, pour Educational Databases ou Bases de données éducationnelles, est une plateforme
@@ -31,7 +36,7 @@
           </div>
         </div>
       </div>
-      <NuxtLink to="/projects" class="mt-10 btn btn-lg btn-primary"><IconSquareArrowRightFilled /> Découvrir les projets publiés</NuxtLink>
+      <NuxtLink to="/projects" class="mt-10 btn btn-lg btn-primary"><IconSquareArrowRightFilled /> Découvrir les projets</NuxtLink>
     </div>
   </div>
 </template>
