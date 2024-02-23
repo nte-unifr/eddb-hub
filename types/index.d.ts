@@ -11,9 +11,9 @@ export interface ProjectConfig {
   about: {
     path: string
     title_criteria: string
-    slogan_criteria: string
+    slogan_criteria?: string
     description_criteria: string
-    image_criteria: string
+    image_criteria?: string
   }
   mandant: {
     name: string

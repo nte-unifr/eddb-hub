@@ -8,6 +8,6 @@ export const directusProject = (config: ProjectConfig, data: any): Project => {
     title: data[title_criteria] || config.title,
     ...(slogan_criteria ? { slogan: data[slogan_criteria] } : {}),
     ...(description_criteria ? { description: data[description_criteria] } : {}),
-    ...(image_criteria ? { image: `${config.apiUrl}/assets/${data[image_criteria]}` } : {})
+    ...(image_criteria ? { image: `${config.apiUrl}/assets/${data[image_criteria]}?fit=cover&width=512` } : {})
   }
 }
