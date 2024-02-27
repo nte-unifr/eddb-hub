@@ -30,7 +30,7 @@ const theme = useState('app-theme')
               parfaitement aux besoins spécifiques de chaque projet.
             </p>
             <p class="py-4 text-xl">
-              Pour toute demande : <em>nte@unifr.ch</em>
+              Pour toute demande : <a class="link link-primary italic" href="mailto:nte@unifr.ch">nte@unifr.ch</a>
             </p>
           </div>
         </div>

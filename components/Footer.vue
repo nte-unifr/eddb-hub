@@ -5,7 +5,7 @@
         <IconNTE />
       </div>
       <p>
-        Développement <a class="link link-accent" href="https://www.unifr.ch/nte/fr/">DIT-NTE</a>, service <a class="link link-accent" href="https://www.unifr.ch/it/fr/eddb.html">EDDB</a>
+        Développement <a class="link link-accent" href="https://www.unifr.ch/it/fr/nte.html">DIT-NTE</a>, service <a class="link link-accent" href="https://www.unifr.ch/it/fr/eddb.html">EDDB</a>
       </p>
     </div>
   </footer>
