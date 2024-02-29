@@ -22,11 +22,12 @@ const { data: project } = useFetch<Project>(path, {
       <h2 class="text-4xl font-bold">{{ project.title }}</h2>
       <h3 v-if="project.slogan" class="text-2xl font-bold opacity-70">{{ project.slogan }}</h3>
       <div v-if="project.description" v-html="project.description" class="pt-6"></div>
-      <p class="my-4">
-        <strong>Responsable des données :</strong> <a :href="config.mandant.url" class="link link-primary">{{ config.mandant.name }}</a>
-      </p>
+      <div class="flex flex-col md:flex-row my-4">
+        <div class="font-bold mr-2 mb-1">Responsable des données : </div>
+        <a :href="config.mandant.url" class="link link-primary">{{ config.mandant.name }}</a>
+      </div>
       <div class="mt-4">
-        <NuxtLink v-if="config.url" :to="config.url" class="btn btn-primary mr-2"><IconSquareArrowRightFilled /> Découvrir la collection</NuxtLink>
+        <NuxtLink v-if="config.url" :to="config.url" class="btn btn-primary mr-2 mb-1"><IconSquareArrowRightFilled /> Découvrir la collection</NuxtLink>
         <NuxtLink :to="config.apiUrl" class="btn btn-primary"><IconLockSquareRoundedFilled /> Admin</NuxtLink>
       </div>
     </div>

@@ -6,12 +6,12 @@ const theme = useState('app-theme')
   <div class="hero min-h-screen">
     <div class="hero-content max-w-7xl grid">
       <div class="flex flex-col lg:flex-row-reverse items-center">
-        <img src="~/assets/img/eddb-art.png" class="size-96 rounded-lg shadow-2xl mb-8" />
+        <img src="~/assets/img/eddb-art.png" class="max-w-48 md:max-w-96 rounded-lg shadow-2xl mb-8" />
         <div>
           <h1 class="text-5xl font-bold lg:hidden">Educational Databases</h1>
           <img v-if="theme == 'light'" src="~/assets/img/eddb-banner-light.png" class="w-2/3 mb-8 hidden lg:block" />
           <img v-if="theme == 'dark'" src="~/assets/img/eddb-banner-dark.png" class="w-2/3 mb-8 hidden lg:block" />
-          <div class="text-justify pr-8">
+          <div class="md:text-justify pr-8">
             <p class="py-6 text-xl">
               <strong><em>EDDB</em></strong>, pour Educational Databases ou Bases de données éducationnelles, est une plateforme
               innovante conçue pour faciliter la mise en place rapide de bases de données dédiées à l'enseignement et à la recherche.
