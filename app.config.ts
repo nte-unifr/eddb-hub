@@ -51,6 +51,7 @@ export default defineAppConfig({
         title_criteria: "title",
         slogan_criteria: "slogan",
         description_criteria: "description",
+        image_criteria: "image",
       },
       mandant: {
         name: "Prof. Rafca Nasr",
