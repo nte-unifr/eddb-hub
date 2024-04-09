@@ -44,6 +44,21 @@ export default defineAppConfig({
       }
     },
     {
+      title: "HolyNet",
+      apiUrl: "https://eddb.unifr.ch/holynet-admin",
+      about: {
+        path: "/items/about",
+        title_criteria: "title",
+        slogan_criteria: "slogan",
+        description_criteria: "description",
+        image_criteria: "image",
+      },
+      mandant: {
+        name: "Prof. Michele Bacci",
+        url: "https://www.unifr.ch/directory/fr/people/6925/a067e"
+      }
+    },
+    {
       title: "LEFem",
       apiUrl: "https://eddb9.unifr.ch/lefem",
       about: {
@@ -101,6 +116,21 @@ export default defineAppConfig({
       mandant: {
         name: "Prof. Michele Bacci",
         url: "https://www.unifr.ch/directory/fr/people/6925/a067e"
+      }
+    },
+    {
+      title: "LaVenta",
+      apiUrl: "https://eddb.unifr.ch/laventa-admin",
+      about: {
+        path: "/items/about",
+        title_criteria: "title",
+        slogan_criteria: "slogan",
+        description_criteria: "description",
+        image_criteria: "image",
+      },
+      mandant: {
+        name: "Juan Carrillo",
+        url: "https://www.unifr.ch/directory/fr/people/341414/3b782"
       }
     },
   ]
