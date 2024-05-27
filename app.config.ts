@@ -3,7 +3,7 @@ export default defineAppConfig({
     {
       title: "Callisto",
       url: "https://elearning.unifr.ch/callisto/",
-      apiUrl: "https://eddb9.unifr.ch/callisto",
+      apiUrl: "https://eddb.unifr.ch/callisto-admin",
       about: {
         path: "/items/about",
         title_criteria: "title",
