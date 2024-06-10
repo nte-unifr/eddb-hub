@@ -91,7 +91,7 @@ export default defineAppConfig({
     },
     {
       title: "NAFO",
-      apiUrl: "https://eddb9.unifr.ch/nafo",
+      apiUrl: "https://eddb.unifr.ch/nafo-admin",
       about: {
         path: "/items/about",
         title_criteria: "title",
